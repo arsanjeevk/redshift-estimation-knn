@@ -90,6 +90,9 @@ print("Maximum depth:",best_model.max_depth)
 print("10-fold CV accuracy:",grid_search.best_score_)
 
 # Classification results
+accuracy = accuracy_score(y_test_class, y_pred_class)
+print(f"Accuracy: {accuracy:.4f}")
+
 results=classification_results(
     y_test_binned,
     final_prediction,
@@ -181,6 +184,9 @@ print("Maximum depth:",best_model.max_depth)
 print("10-fold CV accuracy:",grid_search.best_score_)
 
 # Classification results
+accuracy = accuracy_score(y_test_class, y_pred_class)
+print(f"Accuracy: {accuracy:.4f}")
+
 results=classification_results(
     y_test_binned,
     final_prediction,
@@ -268,6 +274,9 @@ print("Maximum depth:",best_model.max_depth)
 print("10-fold CV accuracy:",grid_search.best_score_)
 
 # Classification results
+accuracy = accuracy_score(y_test_class, y_pred_class)
+print(f"Accuracy: {accuracy:.4f}")
+
 results=classification_results(
     y_test_binned,
     final_prediction,
